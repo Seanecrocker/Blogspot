@@ -31,8 +31,28 @@
     margin: 0 3px;
 }
 
+.circle {
+    width: 550px;
+    height: 550px;
+    background-image: linear-gradient(to bottom, #ff8800f9, #ef0e73);
+    border-radius: 50%;
+    position:relative;
+    bottom: 700px;
+    left: 100px
+}
 
 
 .left-header {
-  
+  color: rgb(255, 255, 255);
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; /* Outline effect */
+  font-size: 100px;
+  position: relative;
+  left: 180px;
+  bottom: 1120px
 }
+
+
