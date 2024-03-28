@@ -82,7 +82,12 @@
     margin-bottom: 10px;
 }
 
-.form-container input {
+#username {
+    height: 20px;
+    width: 200px;
+}
+
+#title {
     height: 20px;
     width: 200px;
 }
@@ -92,8 +97,9 @@
     height: 100px;
 }
 
-.form-container button {
+.submit {
     height: 30px;
     width: 200px;
+    size: 20px;
     background-color: #d45c2d67;
 }
