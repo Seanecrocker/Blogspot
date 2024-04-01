@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Set flex-direction to column to stack items vertically */
-}
+    flex-direction: column; }
 
 .horizontal-line {
     width: 100%;
@@ -114,24 +113,29 @@
     position:relative;
     bottom: 990px;
     left: 15px;
+    color: rgb(110, 110, 110);
 }
 
 .posted-2 {
     position:relative;
     bottom: 890px;
     left: 15px;
+    color: rgb(110, 110, 110);
+    
 }
 
 .posted-3 {
     position:relative;
     bottom:790px;
-    left: 15px
+    left: 15px;
+    color: rgb(110, 110, 110);
 }
 
 .posted-4 {
     position:relative;
     bottom: 694px;
     left: 15px;
+    color: rgb(110, 110, 110);
 }
 
 .horizontal-line2 {

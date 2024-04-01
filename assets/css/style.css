@@ -41,9 +41,39 @@
    
   }
 
-  .dark-theme {
+  .dark-theme .posted-1 {
+    position:relative;
+    bottom: 990px;
+    left: 15px;
+    color: rgb(214, 214, 214);
+}
+
+.dark-theme .posted-2 {
+    position:relative;
+    bottom: 890px;
+    left: 15px;
+    color: rgb(214, 214, 214);
+    
+}
+
+.dark-theme .posted-3 {
+    position:relative;
+    bottom:790px;
+    left: 15px;
+    color: rgb(214, 214, 214);
+}
+
+.dark-theme .posted-4 {
+    position:relative;
+    bottom: 694px;
+    left: 15px;
+    color: rgb(214, 214, 214);
+}
+
+   .dark-theme {
     background-color: #333;
     color: rgb(236, 230, 220);
   }
 
-  /* Dark Theme for index.html */
+
+ 

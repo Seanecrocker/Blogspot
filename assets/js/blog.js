@@ -1,3 +1,4 @@
+//Theme Toggle for blog.html  //
   document.getElementById("back-button").addEventListener("click", function() {
     window.history.back();
   });
@@ -20,7 +21,7 @@ moonIcon.addEventListener('click', () => {
 });
 
 
-
+//Data Transfer//
   const showBlog = JSON.parse(localStorage.getItem('user'));
  
   if (showBlog !== null) {
@@ -31,11 +32,3 @@ moonIcon.addEventListener('click', () => {
       document.getElementById('posted3').textContent = showBlog.username;
       document.getElementById('posted4').textContent = showBlog.username;
   }
-
-
-
-
-
-  
-  
-
