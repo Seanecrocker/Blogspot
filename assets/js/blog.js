@@ -19,3 +19,23 @@ moonIcon.addEventListener('click', () => {
   sunIcon.style.display = 'inline'; 
 });
 
+
+
+  const showBlog = JSON.parse(localStorage.getItem('user'));
+ 
+  if (showBlog !== null) {
+      document.getElementById('display-title').textContent = showBlog.title;
+      document.getElementById('display-content').textContent = showBlog.content;
+      document.getElementById('posted1').textContent = showBlog.username;
+      document.getElementById('posted2').textContent = showBlog.username;
+      document.getElementById('posted3').textContent = showBlog.username;
+      document.getElementById('posted4').textContent = showBlog.username;
+  }
+
+
+
+
+
+  
+  
+

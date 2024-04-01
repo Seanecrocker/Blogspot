@@ -1,0 +1,49 @@
+/* Dark Theme For blog.html */
+#sun {
+    position: relative;
+    bottom: 1060px;
+    left: 1415px;
+    font-size: 30px;
+}
+
+#moon {
+    position: relative;
+    bottom: 1060px;
+    left: 1415px;
+    font-size: 30px;
+    display: none;
+    
+}
+  
+.dark-theme .lines-container {
+    background-color: #333;
+    
+  }
+  
+  .dark-theme .horizontal-line {
+    background-color: #707070; 
+   
+  }
+
+  .dark-theme .horizontal-line2 {
+    background-color:#707070 ;
+    
+  }
+  
+  .dark-theme .rectangle {
+    background-color: #707070; 
+    color: #fff; 
+   
+  }
+
+  .dark-theme #back-button {
+    background-color: rgb(15, 4, 100);
+   
+  }
+
+  .dark-theme {
+    background-color: #333;
+    color: rgb(236, 230, 220);
+  }
+
+  /* Dark Theme for index.html */

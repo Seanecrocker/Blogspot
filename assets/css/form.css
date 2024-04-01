@@ -48,7 +48,7 @@
     -1px -1px 0 #000,  
      1px -1px 0 #000,
     -1px  1px 0 #000,
-     1px  1px 0 #000; /* Outline effect */
+     1px  1px 0 #000; 
   font-size: 100px;
   position: relative;
   left: 180px;
@@ -103,3 +103,63 @@
     size: 20px;
     background-color: #d45c2d67;
 }
+
+/* Dark Theme */
+
+#sun {
+    position: relative;
+    bottom: 1805px;
+    left: 1400px;
+    font-size: 30px;
+    background-color: rgb(228, 215, 189);
+}
+
+#moon {
+    position: relative;
+    bottom: 1805px;
+    left: 1400px;
+    font-size: 30px;
+    display: none;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: rgb(236, 230, 220);
+}
+
+.dark-theme, 
+#username,
+#title,
+#content {
+    color: #333;
+}
+
+.dark-theme .horizontal-line, 
+.dark-theme .vertical-line {
+    background-color: #ccc;
+}
+
+.dark-theme
+.create-your-content {
+    color: #d8d6d6;
+}
+
+.card {
+    background-color:	#FFFFE0;
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+    margin: 40px 20px;
+    padding: 20px;
+    width: 40vw;
+    float: left;
+  }
+  
+  .card::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  

@@ -110,27 +110,27 @@
     bottom: 420px;
 }
 
-.posted1 {
+.posted-1 {
     position:relative;
-    bottom: 777px;
+    bottom: 990px;
     left: 15px;
 }
 
-.posted2 {
+.posted-2 {
     position:relative;
-    bottom: 678px;
+    bottom: 890px;
     left: 15px;
 }
 
-.posted3 {
+.posted-3 {
     position:relative;
-    bottom:579px;
+    bottom:790px;
     left: 15px
 }
 
-.posted4 {
+.posted-4 {
     position:relative;
-    bottom: 480px;
+    bottom: 694px;
     left: 15px;
 }
 
@@ -140,13 +140,13 @@
     background-color: rgb(0, 0, 0);
     margin: 3px;
     position: relative;
-    bottom: 470px
+    bottom: 325px
 }
 
 .portfolio {
     font-style: italic;
     position: relative;
-    bottom: 450px;
+    bottom: 301px;
     font-weight: bold;
 }
 
@@ -154,55 +154,32 @@
     font-style: italic;
     font-weight: bold;
     position: relative;
-    bottom: 449px;
-}
+    bottom: 300px;
+} 
 
-/* Dark Theme */
-
-#sun {
+.title-container {
     position: relative;
-    bottom: 1205px;
-    left: 1430px;
-    font-size: 30px;
+    bottom: 965px;
+    left: 15px;
 }
 
-#moon {
+.content-container {
     position: relative;
-    bottom: 1205px;
-    left: 1397px;
-    font-size: 30px;
-    display: none;
+    bottom: 605px;
+    left: 15px;
 }
-  
-.dark-theme .lines-container {
-    background-color: #333;
+
+#content-2 {
+    position: relative;
+    bottom: 1040px;
+    left: 15px;
+    font-style: italic;
+}
+
+#content-3 {
+    position: relative;
+    bottom: 945px;
+    left: 15px;
+    font-style: italic;
     
-  }
-  
-  .dark-theme .horizontal-line {
-    background-color: #707070; 
-   
-  }
-
-  .dark-theme .horizontal-line2 {
-    background-color:#707070 ;
-    
-  }
-  
-  .dark-theme .rectangle {
-    background-color: #707070; 
-    color: #fff; 
-   
-  }
-
-  .dark-theme #back-button {
-    background-color: rgb(15, 4, 100);
-   
-  }
-
-  .dark-theme {
-    background-color: #333;
-    color: rgb(236, 230, 220);
-  }
-  
-  
+}
